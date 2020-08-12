@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Razorpay-frontend/static/css/main.8aeed761.chunk.css",
+    "main.js": "/Razorpay-frontend/static/js/main.6e1c473d.chunk.js",
+    "main.js.map": "/Razorpay-frontend/static/js/main.6e1c473d.chunk.js.map",
+    "runtime-main.js": "/Razorpay-frontend/static/js/runtime-main.7ff5d26f.js",
+    "runtime-main.js.map": "/Razorpay-frontend/static/js/runtime-main.7ff5d26f.js.map",
+    "static/js/2.c21b0c08.chunk.js": "/Razorpay-frontend/static/js/2.c21b0c08.chunk.js",
+    "static/js/2.c21b0c08.chunk.js.map": "/Razorpay-frontend/static/js/2.c21b0c08.chunk.js.map",
+    "index.html": "/Razorpay-frontend/index.html",
+    "precache-manifest.3fdb3961df7fd006c13a86c955e80f5d.js": "/Razorpay-frontend/precache-manifest.3fdb3961df7fd006c13a86c955e80f5d.js",
+    "service-worker.js": "/Razorpay-frontend/service-worker.js",
+    "static/css/main.8aeed761.chunk.css.map": "/Razorpay-frontend/static/css/main.8aeed761.chunk.css.map",
+    "static/js/2.c21b0c08.chunk.js.LICENSE.txt": "/Razorpay-frontend/static/js/2.c21b0c08.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ff5d26f.js",
+    "static/js/2.c21b0c08.chunk.js",
+    "static/css/main.8aeed761.chunk.css",
+    "static/js/main.6e1c473d.chunk.js"
+  ]
+}

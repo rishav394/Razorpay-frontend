@@ -70,7 +70,7 @@ const App: React.FC = () => {
 			// Razor pay standard checkout handler https://razorpay.com/docs/payment-gateway/web-integration/standard/
 			handler: async (response: PaymentResponse) => {
 				try {
-					const captureResponse = await recievePayment(response, amount);
+					await recievePayment(response, amount);
 					setMidProcess(false);
 					// At this point server must have verified the payment and we have the money in our bank
 					setModalText(Strings.payment.ok);
@@ -145,8 +145,16 @@ const App: React.FC = () => {
 					disabled={midProcess}
 					onClick={handlePayment}
 				>
-					{Strings.payNow}
+					{midProcess ? 'Processing...' : Strings.payNow}
 				</button>
+			</div>
+			<div
+				style={{
+					position: 'absolute',
+					bottom: 0,
+				}}
+			>
+				Backend is located at - {process.env.REACT_APP_SERVER_URL}
 			</div>
 		</div>
 	);

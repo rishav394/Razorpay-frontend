@@ -3,7 +3,7 @@ import { PaymentResponse } from './types';
 
 // Make an axios client for the end user
 const Victor = axios.create({
-	baseURL: `http://localhost:5000`,
+	baseURL: process.env.REACT_APP_SERVER_URL,
 });
 
 /**
